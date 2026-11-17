@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Agent-Skill-Ming-3.0-TTS: speak text through a `ming-tts` (Ming-3.0-tts-0.5B) endpoint.
+"""agent-skill-ming-3.0-tts: speak text through a `ming-tts` (Ming-3.0-tts-0.5B) endpoint.
 
 The endpoint and key are supplied by the environment (or flags), so nothing
 deployment-specific lives in this file:
