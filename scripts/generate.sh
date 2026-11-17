@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# agent-skill-ming-3.0-tts: compatibility shim for the old flag set.
+# agent-skill-ming-3-tts: compatibility shim for the old flag set.
 #
 # The endpoint and key come from the environment (see ming_tts.py):
 #   MING_TTS_BASE_URL   e.g. https://llama-swap.example.com/v1

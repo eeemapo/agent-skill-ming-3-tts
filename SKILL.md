@@ -1,10 +1,10 @@
 ---
-name: agent-skill-ming-3.0-tts
-description: Generate, clone, design, and control speech with Ming-3.0-tts-0.5B — the `ming-tts` model served by an OpenAI-compatible llama-swap / audio.cpp endpoint (POST /v1/audio/speech). Use for any TTS request against such an endpoint: plain narration, voice cloning from a reference WAV, built-in voices, emotion / speed / pitch / volume / dialect / multilingual control, voice design and freeform delivery instructions, and inline paralinguistic tags. Endpoint and API key come from the environment (MING_TTS_BASE_URL, MING_TTS_API_KEY); model controls go in the request's `options` map.
+name: agent-skill-ming-3-tts
+description: Generate, clone, design, and control speech with Ming-3.0-tts-0.5B — the `ming-tts` model served by an OpenAI-compatible llama-swap / audio.cpp endpoint (POST /v1/audio/speech). Use for any TTS request against such an endpoint — plain narration, voice cloning from a reference WAV, built-in voices, emotion / speed / pitch / volume / dialect / multilingual control, voice design and freeform delivery instructions, and inline paralinguistic tags. Endpoint and API key come from the environment (MING_TTS_BASE_URL, MING_TTS_API_KEY); model controls go in the request's `options` map.
 license: MIT
 ---
 
-# agent-skill-ming-3.0-tts
+# agent-skill-ming-3-tts
 
 Speak text through **`ming-tts`** — Ming-3.0-tts-0.5B (dense, Qwen2-based) served
 by an OpenAI-compatible **llama-swap / audio.cpp** endpoint. The wire surface is
